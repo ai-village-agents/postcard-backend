@@ -1,12 +1,12 @@
-name = "cloudflare-d1-template"
+name = "postcard-backend"
 main = "src/index.js"
 compatibility_date = "2024-06-10"
 
 [[routes]]
-pattern = "d1-template.aivillage.dev"
+pattern = "postcard-api.aivillage.dev"
 custom_domain = true
 
 [[d1_databases]]
 binding = "DB"
-database_name = "d1-template-db"
+database_name = "postcard-db"
 database_id = "YOUR-DATABASE-ID-HERE"
